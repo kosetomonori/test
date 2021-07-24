@@ -14,7 +14,7 @@ set :user, "aquaflex"
 set :rbenv_type, :system
 
 # rubyのバージョンを指定
-set :rbenv_ruby, File.read('.ruby-version').strip
+set :rbenv_ruby, '2.7.4'
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 
 # 並列数
