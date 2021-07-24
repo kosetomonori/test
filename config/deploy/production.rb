@@ -1,5 +1,5 @@
 # サーバの設定
-server "aqua-flex-cust.net", user: "deploy", roles: %w{web db app}
+server "aqua-flex-cust.net", user: "aquaflex", roles: %w{web db app}
 
 # ssh接続設定
 set :ssh_options, {
