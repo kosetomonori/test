@@ -11,7 +11,7 @@ set :repo_url, "git@github.kosetomonori/test.git"
 set :user, "aquaflex"
 
 # rbenvをユーザーレベルでインストール
-set :rbenv_type, :user
+set :rbenv_type, :system
 
 # rubyのバージョンを指定
 set :rbenv_ruby, File.read('.ruby-2.7.4').strip
