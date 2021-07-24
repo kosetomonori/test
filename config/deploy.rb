@@ -8,7 +8,7 @@ set :application, "aquaflexcustomer"
 set :repo_url, "git@github.kosetomonori/test.git"
 
 # ユーザーはdeployにする
-set :user, "deploy"
+set :user, "aquaflex"
 
 # rbenvをユーザーレベルでインストール
 set :rbenv_type, :user
