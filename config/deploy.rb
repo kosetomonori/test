@@ -5,7 +5,7 @@ lock "~> 3.16.0"
 set :application, "aquaflexcustomer"
 
 # GitHubリポジトリ情報
-set :repo_url, "git@github.kosetomonori/test.git"
+set :repo_url, "https://github.com/kosetomonori/test.git"
 
 # ユーザーはdeployにする
 set :user, "aquaflex"
